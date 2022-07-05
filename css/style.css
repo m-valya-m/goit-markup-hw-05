@@ -512,6 +512,16 @@ h2 {
 }
 
 .icon-border {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-border:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+.hand {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
@@ -521,13 +531,9 @@ h2 {
   justify-content: center;
 }
 
-.icon-border:not(:last-child) {
-  margin-right: 30px;
-}
-.icon-border:hover {
+.hand:hover {
   border: 1px solid #2196f3;
 }
-
 
 .hand:focus .icon-clients {
   fill: #2196f3;
@@ -536,6 +542,7 @@ h2 {
 
 .hand:focus {
   outline: none;
+  border: 1px solid #2196f3;
 }
 
 
