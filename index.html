@@ -32,7 +32,7 @@
             <li class="site-nav-studio"><a href="#">Студия</a></li>
 
             <li class="site-nav-portfolio">
-              <a href="portfolio.html">Портфолио</a>
+              <a href="./portfolio.html">Портфолио</a>
             </li>
 
             <li><a href="#">Контакты</a></li>
@@ -66,7 +66,7 @@
         <div class="container">
           <h1 class="bg-title">Эффективные решения для вашего бизнеса</h1>
 
-          <button class="btn" type="button">Заказать услугу</button>
+          <button class="btn" type="button"  data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -133,30 +133,38 @@
       <section class="do-section">
         <div class="container">
           <h2 class="do">Чем мы занимаемся</h2>
+
           <ul class="do-img">
-            <li>
+            <li class="do-img-card">
               <img
                 src="./img/tablet.png"
                 alt="tablet"
                 width="370px"
                 height="294"
               />
+              <p class="title-img">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+              <div class="title-box"></div>
             </li>
-            <li>
+
+            <li class="do-img-card">
               <img
                 src="./img/phone.png"
                 alt="phone"
                 width="370px"
                 height="294"
               />
+              <p class="title-img">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+              <div class="title-box"></div>
             </li>
-            <li>
+            <li class="do-img-card">
               <img
                 src="./img/colors.jpg"
                 alt="colors"
                 width="370px"
                 height="294"
               />
+              <p class="title-img">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+              <div class="title-box"></div>
             </li>
           </ul>
         </div>
@@ -321,8 +329,8 @@
       </section>
 
       <!-- section 6-->
-      <section class="container clients" >
-        <h2 class="title-clients">Постоянные клиенты.</h2>
+      <section class="container clients">
+        <h2 class="title-clients">Постоянные клиенты</h2>
         <ul class="icon-list">
           <li class="icon-border">
             <a class="hand" href="#">
@@ -339,32 +347,32 @@
             </a>
           </li>
           <li class="icon-border">
-            <a  class="hand" href="">
+            <a class="hand" href="">
               <svg class="icon-clients">
                 <use xlink:href="./img/icons.svg#object"></use>
               </svg>
             </a>
           </li>
           <li class="icon-border">
-            <a  class="hand" href="">
-            <svg class="icon-clients">
-              <use xlink:href="./img/icons.svg#foster"></use>
-            </svg>
-          </a>
+            <a class="hand" href="">
+              <svg class="icon-clients">
+                <use xlink:href="./img/icons.svg#foster"></use>
+              </svg>
+            </a>
           </li>
           <li class="icon-border">
-            <a  class="hand" href="">
-            <svg class="icon-clients">
-              <use xlink:href="./img/icons.svg#brand"></use>
-            </svg>
-          </a>
+            <a class="hand" href="">
+              <svg class="icon-clients">
+                <use xlink:href="./img/icons.svg#brand"></use>
+              </svg>
+            </a>
           </li>
           <li class="icon-border">
-            <a  class="hand" href="">
-            <svg class="icon-clients">
-              <use xlink:href="./img/icons.svg#line"></use>
-            </svg>
-          </a>
+            <a class="hand" href="">
+              <svg class="icon-clients">
+                <use xlink:href="./img/icons.svg#line"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </section>
@@ -373,7 +381,7 @@
     <footer class="bg-footer">
       <div class="container">
         <ul class="footer-list">
-          <li class="footer-adress">
+          <li class="footer-address">
             <a class="logo-footer" href="#"
               ><span class="logo-blue">Web</span
               ><span class="logo-white">Studio</span>
@@ -429,5 +437,20 @@
         </ul>
       </div>
     </footer>
+
+
+    
+
+    Модальное окно
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <div class="modal-close-button">
+          <button class="modal-btn" type="button" data-modal-close>
+          <img src="./img/close.svg" alt="close">
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
