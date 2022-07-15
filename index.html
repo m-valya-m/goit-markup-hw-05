@@ -66,7 +66,9 @@
         <div class="container">
           <h1 class="bg-title">Эффективные решения для вашего бизнеса</h1>
 
-          <button class="btn" type="button"  data-modal-open>Заказать услугу</button>
+          <button class="btn" type="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
 
@@ -406,49 +408,107 @@
             <ul class="personal-soc">
               <li class="personal-soc-item">
                 <a class="footer-soc-link" href="">
-                  <svg class="master-soc-icon" width="20px" height="20px">
+                  <svg class="footer-soc-icon" width="20px" height="20px">
                     <use href="./img/icons.svg#instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="personal-soc-item">
                 <a class="footer-soc-link" href="">
-                  <svg class="master-soc-icon" width="20px" height="20px">
+                  <svg class="footer-soc-icon" width="20px" height="20px">
                     <use href="./img/icons.svg#twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="personal-soc-item">
                 <a class="footer-soc-link" href="">
-                  <svg class="master-soc-icon" width="20px" height="20px">
+                  <svg class="footer-soc-icon" width="20px" height="20px">
                     <use href="./img/icons.svg#facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="personal-soc-item">
                 <a class="footer-soc-link" href="">
-                  <svg class="master-soc-icon" width="20px" height="20px">
+                  <svg class="footer-soc-icon" width="20px" height="20px">
                     <use href="./img/icons.svg#linkedin"></use>
                   </svg>
                 </a>
               </li>
             </ul>
           </li>
+          <li class="footer-email">
+            <p class="footer-text">Подпишитесь на рассылку</p>
+            <label for="user_email"></label>
+            <input
+              type="email"
+              class="input__text"
+              name="email"
+              id="user_email"
+              placeholder="E-mail"
+            />
+            <button class="footer-btn">Подписаться</button>
+
+            <img class="send" src="./img/send.svg" alt="send" />
+          </li>
         </ul>
       </div>
     </footer>
 
-
-    
-
-    Модальное окно
+    <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <div class="modal-close-button">
           <button class="modal-btn" type="button" data-modal-close>
-          <img src="./img/close.svg" alt="close">
+            <img src="./img/close.svg" alt="close" />
           </button>
         </div>
+<!-- 
+        <form class="js-speaker-form">
+          <ul>
+            <li>
+              <label for="name">Имя</label>
+
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Валентина Олеговна"
+                autofocus
+                class="form-fild"
+              />
+            </li>
+
+            <li >
+              <label for="tel">Телефон</label>
+              <input class="form-fild" type="tel" name="tel" id="tel" placeholder="" />
+            </li>
+
+            <li>
+              <label for="email">Почта</label>
+              <input type="email"  class="form-fild" name="mail" id="mail" placeholder="" />
+            </li>
+
+         </ul>
+          
+          
+              <label for="comment">Комментарий</label>
+              <textarea
+                name="comment"
+                id="comment"
+                cols="30"
+                rows="4"
+                placeholder="Введите текст"
+              ></textarea>
+         <input type="checkbox" name="value" id="" /><label for=""
+              >Соглашаюсь с рассылкой и принимаю
+              <a
+                href="https://prostopravo.com.ua/prava_biznesa/dogovornye_otnosheniya"
+                >Условия договора</a
+              >
+            </label>
+       
+          <button type="submit">Отправить</button>
+        </form> -->
       </div>
     </div>
     <script src="./js/modal.js"></script>
