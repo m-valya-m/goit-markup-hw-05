@@ -91,6 +91,8 @@ nav {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
   transition-duration: 0.25s;
 }
 
@@ -120,8 +122,6 @@ nav {
 
 .desc-img:hover .text {
   opacity: 1;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.25s;
 }
 
 .desc-img::before {
@@ -152,10 +152,16 @@ nav {
 
 .site-nav-studio-1 a {
   color: var(--black);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .site-nav-portfolio a {
   color: var(--black);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .site-nav-portfolio-1 a {
@@ -171,6 +177,9 @@ nav {
   border-bottom: 4px solid;
   padding-bottom: 28px;
   border-radius: 2px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .site-nav-studio-2 {
@@ -180,9 +189,6 @@ nav {
 .site-nav a:hover,
 .site-nav a:focus {
   color: rgba(33, 150, 243, 1);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.25s;
-  transition-duration: 0.25s;
 }
 
 .site-nav-portfolio-1 {
@@ -191,10 +197,16 @@ nav {
 
 .site-nav-portfolio-2 a {
   color: var(--blue);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .auth-nav {
   display: flex;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .auth-nav a {
@@ -205,15 +217,14 @@ nav {
   line-height: 16px;
   letter-spacing: 0.02em;
   font-style: normal;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
   transition-duration: 0.25s;
 }
 
 .auth-nav a:hover,
 .auth-nav a:focus {
   color: rgba(33, 150, 243, 1);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.25s;
-  transition-duration: 0.25s;
 }
 
 .auth-nav li {
@@ -221,6 +232,9 @@ nav {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 .auth-nav li:not(:last-child) {
   margin-right: 20px;
@@ -233,7 +247,10 @@ nav {
 .link-mail,
 .link-tel {
   display: flex;
-  align-items: center;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .link-mail:focus .mail-icon {
@@ -386,6 +403,9 @@ header {
   font-family: inherit;
   padding: 6px 22px 6px 22px;
   border-radius: 4px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .btn-portfolio-section li {
@@ -409,9 +429,6 @@ header {
   color: var(--blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.25s;
-  transition-duration: 0.25s;
 }
 
 .btn-portfolio:hover,
@@ -592,13 +609,13 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .personal-soc-link:hover {
   background-color: #2196f3;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.25s;
-  transition-duration: 0.25s;
 }
 
 .master-soc-icon {
@@ -706,9 +723,6 @@ h2 {
 
 .hand:hover {
   border: 1px solid #2196f3;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.25s;
-  transition-duration: 0.25s;
 }
 
 .hand:focus .icon-clients {
@@ -729,9 +743,7 @@ h2 {
 
 .icon-border:hover .icon-clients,
 .icon-clients:focus {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.25s;
-  transition-duration: 0.25s;
+
   fill: #2196f3;
 }
 
@@ -746,6 +758,9 @@ h2 {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .desc {
@@ -820,7 +835,11 @@ img {
   font-size: 14px;
   line-height: 24px;
 }
-
+.mailto {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
+}
 .mailto:hover,
 .mailto:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -860,6 +879,9 @@ img {
 
 .footer-address {
   padding-right: 70px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 .footer-subscr {
   font-weight: 700;
@@ -877,19 +899,17 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.25s;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-link:hover {
   background: #2196f3;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.25s;
-  transition-duration: 0.25s;
+
 }
 .footer-soc-link:hover .master-soc-icon {
   fill: #ffffff;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.25s;
-  transition-duration: 0.25s;
 }
 
 .master-soc-icon:hover {
@@ -940,6 +960,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.25s;
+  transition-duration: 0.25s;
 }
 
 .input__text {
